@@ -133,4 +133,4 @@ pacstrap /mnt base base-devel
 echo '3.3 Настройка системы'
 genfstab -pU /mnt >> /mnt/etc/fstab
 
-arch-chroot /mnt #sh -c "$(curl -fsSL git.io/virtarch2.sh)"
+arch-chroot /mnt sh -c "$(curl -fsSL git.io/virtarch2.sh)"
