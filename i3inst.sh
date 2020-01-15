@@ -1,8 +1,5 @@
 #!/bin/bash
-pacman -S i3-wm
-pacman -S i3status dmenu xterm
-pacman -S xorg-server xf86-video-intel xf86-input-synaptics
-pacman -S slim
+pacman -S i3-wm i3-gaps i3status sbxkb dmenu pcmanfm ttf-font-awesome feh lxappearance sbxkb thunar gvfs udiskie xorg-xbacklight ristretto tumbler compton slim
 echo "current_theme archlinux" >> /etc/slim.conf
 
 #echo "current_theme archlinux" && echo "xx" && echo "superline3" >> /tmp/shooter/test/s.conf
