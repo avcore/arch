@@ -17,6 +17,3 @@ echo "current_theme archlinux" >> /etc/slim.conf
   systemctl start slim
   
   pacman -S terminus-font lilyterm
-
-
-curl -i https://git.io -F "https://raw.githubusercontent.com/avcore/arch/master/i3inst.sh" -F "code=i3inst.sh"
