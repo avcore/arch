@@ -17,9 +17,9 @@
 #pacman -S terminus-font lilyterm
 
 
-wget git.io/yay-install.sh && sh yay-install.sh
+#wget git.io/yay-install.sh && sh yay-install.sh
 
-yay -S awesome-terminal-fonts bumblebee-status compton fonts-powerline dmenu i3-gaps i3lock-fancy-git lxappearance nitrogen rofi scrot termite xclip
+#yay -S awesome-terminal-fonts bumblebee-status compton fonts-powerline dmenu i3-gaps i3lock-fancy-git lxappearance nitrogen rofi scrot termite xclip
 (
   echo [Desktop Entry];
   echo Name=i3 custom;
