@@ -51,11 +51,8 @@ echo '[multilib]' >> /etc/pacman.conf
 echo 'Include = /etc/pacman.d/mirrorlist' >> /etc/pacman.conf
 pacman -Syy
 
-pacman -S virtualbox-guest-utils
-#pacman -S xorg-server xorg-drivers xorg-xinit virtualbox-guest-utils
-#pacman -S weston virtualbox-guest-utils 
-#pacman -S sway swaylock swayidle sddm
-#pacman -S i3-wm i3-gaps i3status sbxkb dmenu pcmanfm ttf-font-awesome feh lxappearance thunar gvfs udiskie xorg-xbacklight ristretto tumbler compton i3-sensible-terminal i3lock
+pacman -S xorg-server xf86-video-vesa xorg-xinit virtualbox-guest-utils
+
 echo 'Ставим шрифты'
 pacman -S ttf-liberation ttf-dejavu --noconfirm 
 
